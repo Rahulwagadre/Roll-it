@@ -13,11 +13,23 @@ const RoleDice = ({ roleDice, currentDice }) => {
 
 export default RoleDice;
 
-const DiceContainer = styled.div`
+const DiceContainer = styled.main`
   margin-top: 48px;
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  div {
+    img {
+      width: 195px;
+      height: 195px;
+      &:hover {
+        width: 200px;
+        height: 200px;
+        cursor: pointer;
+      }
+    }
+  }
 
   .dice {
     cursor: pointer;

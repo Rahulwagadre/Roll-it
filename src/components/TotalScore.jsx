@@ -21,5 +21,6 @@ const ScoreContainer = styled.div`
   p {
     font-size: 24px;
     font-weight: 500px;
+    white-space: nowrap;
   }
 `;

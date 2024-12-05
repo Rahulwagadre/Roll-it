@@ -20,6 +20,9 @@ const Rules = () => {
 export default Rules;
 
 const RulesContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
   max-width: 800px;
   margin: 0 auto;
   background-color: #fbf1f1;
@@ -30,6 +33,9 @@ const RulesContainer = styled.div`
     font-size: 24px;
   }
   .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
     margin-top: 24px;
   }
 `;
