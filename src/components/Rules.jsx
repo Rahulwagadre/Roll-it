@@ -25,7 +25,7 @@ const RulesContainer = styled.div`
   align-items: center;  
   max-width: 800px;
   margin: 0 auto;
-  background-color: #fbf1f1;
+  background-color: white;
   padding: 20px;
   margin-top: 40px;
   border-radius: 10px;

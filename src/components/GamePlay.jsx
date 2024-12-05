@@ -32,11 +32,12 @@ const GamePlay = () => {
       setScore((prev) => prev - 2);
     }
 
-    setSelectedNumber(undefined);
+    // setSelectedNumber(undefined);
   };
 
   const resetScore = () => {
     setScore(0);
+    setSelectedNumber(undefined);
   };
 
   return (
